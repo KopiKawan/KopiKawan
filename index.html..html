@@ -1,42 +1,122 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.2">
-  <style type="text/css">
-    body {background-color: #f7f1eb}
-    p.p2 {margin: 0.0px 0.0px 12.0px 0.0px; text-align: center; font: 12.0px Arial; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Arial; color: #ffffff; -webkit-text-stroke: #ffffff}
-    p.p5 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Arial; color: #262626; -webkit-text-stroke: #262626}
-    li.li6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Arial; color: #262626; -webkit-text-stroke: #262626}
-    span.s1 {font-kerning: none; background-color: #5b3d2a}
-    span.s2 {font-kerning: none; background-color: #774b2e}
-    span.s3 {font-kerning: none}
-    span.s4 {-webkit-text-stroke: 0px #000000}
-    ul.ul1 {list-style-type: disc}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Kawan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1f1f;
+            color: #f1f1f1;
+        }
+        header {
+            background-color: #6b4f4f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+            margin: 0 auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #4e3b3b;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('coffee-shop.jpg') no-repeat center center/cover;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 50px;
+        }
+        .hero p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        .menu-item {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #4e3b3b;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-link {
+            background-color: #6b4f4f;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .contact-link:hover {
+            background-color: #f1f1f1;
+            color: #6b4f4f;
+        }
+    </style>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; text-align: center; font: 24.0px Arial; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s1"><b>Selamat Datang di Dunia Kopi</b><b></b></span></h1>
-<p class="p2"><span class="s1">Semua tentang kopi, dari biji hingga cangkir</span></p>
-<p class="p3"><span class="s2"><b>Tentang Kopi</b><b></b></span></p>
-<p class="p3"><span class="s2"><b>Menu</b><b></b></span></p>
-<p class="p3"><span class="s2"><b>Kontak</b><b></b></span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Arial; color: #262626; -webkit-text-stroke: #262626"><span class="s3"><b>Tentang Kopi</b></span></h2>
-<p class="p5"><span class="s3">Kopi adalah minuman yang dibuat dari biji kopi yang telah dipanggang dan digiling. Kami menyajikan kopi terbaik dari seluruh dunia.</span></p>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Arial; color: #262626; -webkit-text-stroke: #262626"><span class="s3"><b>Menu Kami</b></span></h2>
-<ul class="ul1">
-  <li class="li6"><span class="s4"></span><span class="s3">Espresso</span></li>
-  <li class="li6"><span class="s4"></span><span class="s3">Latte</span></li>
-  <li class="li6"><span class="s4"></span><span class="s3">Cappuccino</span></li>
-  <li class="li6"><span class="s4"></span><span class="s3">Americano</span></li>
-</ul>
-<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; font: 18.0px Arial; color: #262626; -webkit-text-stroke: #262626"><span class="s3"><b>Hubungi Kami</b></span></h2>
-<p class="p5"><span class="s3">Email: info@kopikita.com</span></p>
-<p class="p5"><span class="s3">Telepon: +62-123-456-789</span></p>
-<p class="p2"><span class="s1">© 2024 Dunia Kopi. Semua Hak Dilindungi.</span></p>
+    <header>
+        <img src="Logo_Kopi Kawan Bingkai-01.png" alt="Kopi Kawan Logo">
+        <h1>Welcome to Kopi Kawan</h1>
+        <p>Your best coffee companion</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Enjoy the Best Coffee in Town</h1>
+        <p>Quality, flavor, and warmth in every cup.</p>
+    </div>
+    <section id="about">
+        <h2>About Kopi Kawan</h2>
+        <p>Kopi Kawan is a cozy coffee shop dedicated to serving the finest coffee and creating a welcoming atmosphere for all coffee lovers.</p>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li class="menu-item">Espresso - $3.00</li>
+            <li class="menu-item">Latte - $4.00</li>
+            <li class="menu-item">Cappuccino - $4.50</li>
+            <li class="menu-item">Mocha - $5.00</li>
+            <li class="menu-item">Signature Brew - $6.00</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@kopikawan.com</p>
+        <p>Phone: +123-456-7890</p>
+        <p>Address: 123 Coffee Lane, Coffee Town</p>
+        <a class="contact-link" href="https://wa.me/<YOUR_PHONE_NUMBER>" target="_blank">Chat with us on WhatsApp</a>
+    </section>
+    <footer>
+        <p>&copy; 2025 Kopi Kawan. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+Ask ChatGPT to edit
+
